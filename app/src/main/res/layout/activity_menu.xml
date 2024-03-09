@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C6F9FF">
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"/>
+
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="match_parent"
+        android:textSize="24sp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/logoimage" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Home"
+        android:drawableLeft="@drawable/home"
+        android:drawablePadding="12dp"/>
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Profile"
+        android:textSize="24sp"
+        android:drawableLeft="@drawable/man"
+        android:drawablePadding="12dp"/>
+
+    <TextView
+        android:id="@+id/ConandLoc"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Contact and Location"
+        android:drawableLeft="@drawable/address"
+        android:drawablePadding="12dp"/>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="About US"
+        android:textSize="24sp"
+        android:drawableLeft="@drawable/contact"
+        android:drawablePadding="12dp"/>
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="50dp"
+        android:text="Logout" />
+
+</LinearLayout>
